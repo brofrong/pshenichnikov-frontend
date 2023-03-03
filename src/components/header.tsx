@@ -1,9 +1,7 @@
-import { NextComponentType, type NextPage } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { api } from "~/core/api";
-import logo from "../../public/img/pshenichikov-logo.png"
-import logo2 from "../../public/img/pshinichnikov-logo-2.png"
+import logo from "../../public/img/pshenichikov-logo.png";
+import logo2 from "../../public/img/pshinichnikov-logo-2.png";
 
 
 const Header: React.FC = () => {

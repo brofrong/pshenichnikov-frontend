@@ -9,6 +9,9 @@ module.exports = {
       parserOptions: {
         project: "tsconfig.json",
       },
+      rules: {
+        "@typescript-eslint/no-unsafe-return": "warn",
+      }
     },
   ],
   parser: "@typescript-eslint/parser",
@@ -25,5 +28,6 @@ module.exports = {
         fixStyle: "inline-type-imports",
       },
     ],
+    "@typescript-eslint/no-unsafe-return": "warn",
   },
 };

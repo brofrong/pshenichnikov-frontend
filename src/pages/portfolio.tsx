@@ -1,11 +1,10 @@
 import { type NextPage } from "next";
-import { type } from "os";
-import { api } from "~/core/api";
-import { category, project } from "~/core/types/data";
 import Image from "next/image";
+import { useState } from "react";
+import { api } from "~/core/api";
+import type { category, project } from "~/core/types/data";
 import image1 from '../../public/img/pexels-photo-618079.jpeg';
-import { useContext, useState } from "react";
-import { useRouter } from "next/router";
+
 
 
 export async function getStaticProps() {

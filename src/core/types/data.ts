@@ -10,7 +10,7 @@ export type project = {
     Description: string;
     Title: string;
     category: { data: category };
-    imgs?: any;
+    imgs?: string;
   };
   id: number;
 };

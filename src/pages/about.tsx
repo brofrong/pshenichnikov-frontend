@@ -1,6 +1,6 @@
 import { type NextPage } from "next";
 
-const Home: NextPage = (props) => {
+const Home: NextPage = () => {
     return (
         <div className="container px-12 m-auto my-4">
             <h5 className="text-2xl font-bold">Архитектор - Пшеничников Дмитрий Владимирович</h5>
